@@ -1,4 +1,4 @@
-package com.example.kevin.kktag
+package com.kk.kevin.kktag
 
 import org.junit.Test
 

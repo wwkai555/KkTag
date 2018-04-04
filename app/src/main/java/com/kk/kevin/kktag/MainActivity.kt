@@ -1,10 +1,10 @@
-package com.example.kevin.kktag
+package com.kk.kevin.kktag
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
-import com.example.libtag.Tag
-import com.example.libtag.print
+import com.kk.libtag.Tag
+import com.kk.libtag.print
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val list: MutableList<Tag> = mutableListOf()
-
         (1..10).forEach {
             if (it % 2 == 0) list.add(Tag.TextTag("tagtagtagtagindex $it"))
             else list.add(Tag.TextTag("tag$it"))

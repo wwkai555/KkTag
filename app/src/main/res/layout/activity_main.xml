@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kevin.kktag.MainActivity">
+    tools:context="com.kk.kevin.kktag.MainActivity">
 
-    <com.example.libtag.TagView
+    <com.kk.libtag.TagView
         android:id="@+id/tagView"
         android:paddingTop="20dp"
         android:layout_width="match_parent"

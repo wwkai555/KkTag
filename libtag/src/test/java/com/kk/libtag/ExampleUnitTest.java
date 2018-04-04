@@ -1,4 +1,4 @@
-package com.example.libtag;
+package com.kk.libtag;
 
 import org.junit.Test;
 

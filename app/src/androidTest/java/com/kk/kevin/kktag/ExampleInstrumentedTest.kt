@@ -1,4 +1,4 @@
-package com.example.kevin.kktag
+package com.kk.kevin.kktag
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
